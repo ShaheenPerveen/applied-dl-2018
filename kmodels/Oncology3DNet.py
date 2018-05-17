@@ -43,9 +43,9 @@ class ConvCNN(nn.Module):
         return x
 
 
-class SimpleNet3D(nn.Module):
+class Oncology3DNet(nn.Module):
     def __init__(self, num_classes, n_dim):
-        super(SimpleNet3D, self).__init__()
+        super(Oncology3DNet, self).__init__()
 
         self.avgpool = nn.AdaptiveAvgPool2d(1)
 

@@ -1,0 +1,8 @@
+Save path : ./log//catdog/IceResNet/
+{'base_factor': 20, 'batch_size': 16, 'current_time': '2018-03-13_18-22-06', 'data_path': 'd:/db/data/cat-dog/train/', 'data_path_test': 'd:/db/data/cat-dog/test/', 'dataset': 'catdog', 'decay': 0.0005, 'epochs': 250, 'evaluate': False, 'imgDim': 3, 'img_scale': 224, 'lr': 0.0005, 'lr_period': 10, 'manualSeed': 999, 'momentum': 0.95, 'ngpu': 1, 'num_classes': 2, 'optim': 'adam', 'print_freq': 400, 'save_path': './log/', 'save_path_model': './log/', 'start_epoch': 0, 'validationRatio': 0.9, 'workers': 0}
+Random Seed: 999
+python version : 3.6.2 |Anaconda custom (64-bit)| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)]
+torch  version : 0.3.1.post2
+cudnn  version : 7003
+Available models:['conv3x3', 'dropout', 'pool', 'relu', 'resnext', 'se_resnet101', 'se_resnet152', 'se_resnet18', 'se_resnet34', 'se_resnet50', 'unet', 'wrn']
+=> Final model name 'IceResNet'
